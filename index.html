@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/gallery.js" defer></script>
+</head>
+<body onload="prepareGallery()">
+
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <img class="preview" alt="Sunset Over Mountains" src="https://picsum.photos/id/1015/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Forest Path" src="https://picsum.photos/id/1020/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="City Skyline" src="https://picsum.photos/id/1031/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Ocean Waves" src="https://picsum.photos/id/1042/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Desert Landscape" src="https://picsum.photos/id/1056/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+  <img class="preview" alt="Snowy Trees" src="https://picsum.photos/id/1069/400/300"
+       onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
